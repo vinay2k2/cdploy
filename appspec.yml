@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
 files:
-  - source: ./testcodeploy
-    destination: /home/testcodeploy
+  - source: ./html
+    destination: /home/html
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
